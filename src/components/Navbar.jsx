@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 import { Button, Menu, Typography, Avatar } from "antd";
 import icon from "../assets/images/cryptocurrency.png";
-// import {
-//   HomeOutlined,
-//   MoneyCollectedOutlined,
-//   BulbOutlined,
-//   FundOutlined,
-//   MenuOutlined,
-// } from "@ant-design/icons";
+import {
+  HomeOutlined,
+  BulbOutlined,
+  FundOutlined,
+  MenuOutlined,
+} from "@ant-design/icons";
 
 const Navbar = () => {
   return (
@@ -19,6 +18,9 @@ const Navbar = () => {
         </Typography.Title>
         {/* <Button className="menu-control-container"></Button> */}
       </div>
+      <Menu theme="dark">
+        <Menu.Item icon={<HomeOutlined />}></Menu.Item>
+      </Menu>
     </div>
   );
 };
