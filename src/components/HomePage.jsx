@@ -10,6 +10,23 @@ const HomePage = () => {
       <Title level={2} className="heading">
         Global Crypto Stats
       </Title>
+      <Row>
+        <Col span={12}>
+          <Statistic title="Total Cryptocurrencies" value={2} />
+        </Col>
+        <Col span={12}>
+          <Statistic title="Total Exchanges" value={2} />
+        </Col>
+        <Col span={12}>
+          <Statistic title="Total Market Cap" value={2} />
+        </Col>
+        <Col span={12}>
+          <Statistic title="Total 24h Volume" value={2} />
+        </Col>
+        <Col span={12}>
+          <Statistic title="Total Market" value={2} />
+        </Col>
+      </Row>
     </>
   );
 };
