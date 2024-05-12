@@ -15,7 +15,7 @@ const HomePage = () => {
           <Statistic title="Total Cryptocurrencies" value={2} />
         </Col>
         <Col span={12}>
-          <Statistic title="Total Exchanges" value={2} />
+          <Statistic title="Total Exchanges" value={5} />
         </Col>
         <Col span={12}>
           <Statistic title="Total Market Cap" value={2} />
