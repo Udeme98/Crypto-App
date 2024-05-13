@@ -12,7 +12,7 @@ const HomePage = () => {
       </Title>
       <Row>
         <Col span={12}>
-          <Statistic title="Total Cryptocurrencies" value={2} />
+          <Statistic title="Total Cryptocurrencies" value={1} />
         </Col>
         <Col span={12}>
           <Statistic title="Total Exchanges" value={5} />
