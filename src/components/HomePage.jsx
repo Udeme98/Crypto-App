@@ -21,7 +21,7 @@ const HomePage = () => {
           <Statistic title="Total Market Cap" value={3} />
         </Col>
         <Col span={12}>
-          <Statistic title="Total 24h Volume" value={2} />
+          <Statistic title="Total 24h Volume" value={4} />
         </Col>
         <Col span={12}>
           <Statistic title="Total Market" value={2} />
