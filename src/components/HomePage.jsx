@@ -4,7 +4,7 @@ import { Typography, Row, Col, Statistic } from "antd";
 
 import { useGetCryptosQuery } from "../services/cryptoAPI";
 import Cryptocurrencies from "./Cryptocurrencies";
-import News from "./News";
+// import News from "./News";
 
 const { Title } = Typography;
 
@@ -59,7 +59,7 @@ const HomePage = () => {
         </Title>
       </div>
       <Cryptocurrencies simplified />
-
+      {/* 
       <div className="home-heading-container">
         <Title level={2} className="home-title">
           Latest Crypto News
@@ -67,8 +67,8 @@ const HomePage = () => {
         <Title level={3} className="show-more">
           <Link to="/news">Show More</Link>
         </Title>
-      </div>
-      <News simplified />
+      </div> */}
+      {/* <News simplified /> */}
     </>
   );
 };
